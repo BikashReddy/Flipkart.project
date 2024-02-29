@@ -1,0 +1,124 @@
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&family=Bungee+Spice&display=swap');
+ :root{
+    --main-bg-color:hsl(221, 86%, 57%) ;
+    
+ }
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--main-bg-color) ; 
+    /* font-family: cursive; */
+    /* font-family: 'lato' ,sans-serif; */
+    /* border: 2px solid red; */
+    font: small-caps bold 15px sans-serif;
+    /* font-size: medium; */
+}
+nav ul {
+    height: 60px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.log{
+    display: flex;
+    align-items: center;
+    padding: 2px;margin: 2px;
+}
+
+nav ul li{
+    padding: 0 23px;
+    list-style: none;
+
+}
+
+nav ul li a{
+color: white;    
+text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: hsl(0, 4%, 25%);    
+    font-weight: lighter;
+    }
+    
+.search{
+    display: flex;
+    align-items: center;
+}   
+
+.search input{
+    width: 500px;
+    height: 25px;
+    border-radius: 9px ;
+    margin: 0 10px 0 36px;
+    padding: 0 12px;
+ }
+
+.slider{
+    margin: 4px 4px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+ }
+
+ .card{
+    /* background-color: #c0cece; */
+    max-width: 180vw;
+    margin: 3px;
+    /* padding: 4px; */
+ }
+
+ .card2{
+    /* margin: 8px 29px; */
+    font-size: small;
+
+ }
+
+
+ .card-item{
+    border: 245px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2.1px;
+ }
+ 
+ 
+
+.container{
+    min-height: calc(100vh - 60px - 13vh);
+
+}
+
+footer{
+    height: 5vh;
+    background-color: var(--main-bg-color);
+    color: #0c0808;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    font-family: 'Bungee Spice', sans-serif;
+    
+}
+main{
+    font-size: large;
+    /* justify-content:first baseline; */
+    /* align-items: center;  */
+    /* background-color: hwb(180 97% 1%);
+    color: #0c0808; */
+}
+
+.yo{
+    margin:  12px 0;
+}
+
+.textcenter{
+    text-align: center;
+}

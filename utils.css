@@ -1,0 +1,16 @@
+.flex-all-center{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+       /* font-family: cursive; */
+       font: small-caps bold 15px sans-serif;
+}
+
+.button{
+    padding: 3px 6px;
+    color: #070101;
+    background: hsl(0, 100%, 99%);
+    border: 2px solid rgb(231, 225, 225);
+    border-radius: 7px;
+    cursor: pointer;
+}
